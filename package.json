@@ -1,5 +1,5 @@
 {
-  "name": "js-path",
+  "name": "js-path-util",
   "version": "0.1.0",
   "description": "Browser util to get the JS Path to any HTMLElement",
   "main": "src/js-path.js",

@@ -19,11 +19,11 @@ Not implemented:
 ## Usage
 
 ```sh
-npm i js-path
+npm i js-path-util
 ```
 
 ```js
-import { jsPath } from 'js-path';
+import { jsPath } from 'js-path-util';
 
 jsPath(fooElement);
 ```
@@ -31,7 +31,7 @@ jsPath(fooElement);
 Or apply it to the window
 
 ```js
-import 'js-path/src/apply-js-path-to-window.js';
+import 'js-path-util/src/apply-js-path-to-window.js';
 
 window.jsPath(fooElement)
 ```
