@@ -36,6 +36,12 @@ import 'js-path-util/src/apply-js-path-to-window.js';
 window.jsPath(fooElement)
 ```
 
+Or copy-paste the [JS from unpkg](https://unpkg.com/js-path-util/dist/apply-js-path-to-window.js) into your Dev Tools console and use it:
+
+```js
+jsPath($0)
+```
+
 In Chrome Dev Tools in combination with `$0` helper:
 
 ![Screenshot using $0 helper](./screenshot.png)
