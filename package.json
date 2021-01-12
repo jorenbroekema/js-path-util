@@ -1,8 +1,13 @@
 {
   "name": "js-path-util",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Browser util to get the JS Path to any HTMLElement",
   "main": "src/js-path.js",
+  "homepage": "https://github.com/jorenbroekema/js-path-util",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorenbroekema/js-path-util"
+  },
   "scripts": {
     "start": "web-dev-server --open --watch --node-resolve --app-index demo/index.html",
     "lint": "npm run lint:eslint && npm run lint:prettier",
@@ -54,8 +59,7 @@
   "lint-staged": {
     "*.js": [
       "eslint --fix",
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   }
 }
